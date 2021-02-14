@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class TicketGeneratorApplication {
-   public static double getRandomApplication {
+   public static double getRandomTicketNumber(){
 		 double min=1000;
 		 double max=9999;
 		      double x = (int)(Math.random()*((max-min)+1))
